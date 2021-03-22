@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@null"
+            android:text="厂商管理"
+            android:textSize="16dp"
+            android:textColor="#030303"
+            android:textColorHint="#9F9FA0" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#83738F"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FCFCFC"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/factory_searh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="厂商查询"
+            android:textSize="16sp"
+            android:textColor="#030303"
+            android:background="@drawable/buttonstyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FCFCFC"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/factory_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="厂商增加"
+            android:textSize="16sp"
+            android:textColor="#030303"
+            android:background="@drawable/buttonstyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FCFCFC"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/factory_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="厂商删除"
+            android:textSize="16sp"
+            android:textColor="#030303"
+            android:background="@drawable/buttonstyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FCFCFC"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/factory_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="厂商修改"
+            android:textSize="16sp"
+            android:textColor="#030303"
+            android:background="@drawable/buttonstyle" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

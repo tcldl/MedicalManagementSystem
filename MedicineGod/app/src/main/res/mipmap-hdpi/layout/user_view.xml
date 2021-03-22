@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/mFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+            <RadioGroup
+                android:id="@+id/radiobutton_user_view_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCFCFC"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radiobutton_user_main_mainpage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableTop="@drawable/rb_home"
+                    android:gravity="center"
+                    android:text="首页"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton_user_main_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableTop="@drawable/rb_search"
+                    android:gravity="center"
+                    android:text="药品搜索"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton_user_main_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableTop="@drawable/rb_history"
+                    android:gravity="center"
+                    android:text="订单记录"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton_user_main_shop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableTop="@drawable/rb_shop"
+                    android:gravity="center"
+                    android:text="购物车"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton_user_main_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableTop="@drawable/rb_center"
+                    android:gravity="center"
+                    android:text="个人中心"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+
+</LinearLayout>
